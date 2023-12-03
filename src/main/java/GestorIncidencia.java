@@ -12,11 +12,7 @@ public class GestorIncidencia {
 						
 			ConexionDB.conexionDB();
 	       
-           //**hacer un menu con opciones para: ABM cliente -- Repotar  Incidente--listar técnicos - salir
-			//en un bucle que me permita seguier ejecutando hasta que seleccione salir/terminar
-			//cada llamado funciona bien por separado, cuando se ejecuta todo junto sa un error en Scanner
-			//veamos si se soluciona con el menu
-	       						
+         
 	       //*******Instancia un empleado nvo
 	      Empleado emp1 = Empleado.altaEmpleado();
 	      ConexionDB.altaEmpleadoDB(emp1);
